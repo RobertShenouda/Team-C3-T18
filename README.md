@@ -1,3 +1,5 @@
+![download](https://c3conference.com/assets/images/2018/navigation-logo.png)
+
 Sprint 0
 ========
 
