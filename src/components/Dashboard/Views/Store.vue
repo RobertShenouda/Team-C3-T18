@@ -20,16 +20,8 @@
     createdat: '15/2/2018',
     updatedat: '16/2/2018',
     sellername: 'Mo'
-  },
-  {
-    id: 2,
-    name: 'Minerva Hooper',
-    price: '$36.738',
-    createdat: '15/2/2018',
-    updatedat: '16/2/2018',
-    sellername: 'Mo'
-  }]
-
+  }
+  ]
   export default {
     components: {
       PaperTable
@@ -37,13 +29,7 @@
     data () {
       return {
         table1: {
-          title: 'Stripped Table',
-          subTitle: 'Here is a subtitle for this table',
-          columns: [...tableColumns],
-          data: [...tableData]
-        },
-        table2: {
-          title: 'Table on Plain Background',
+          title: 'Store',
           subTitle: 'Here is a subtitle for this table',
           columns: [...tableColumns],
           data: [...tableData]

@@ -10,7 +10,7 @@ import Icons from 'src/components/Dashboard/Views/Icons.vue'
 import Maps from 'src/components/Dashboard/Views/Maps.vue'
 import Typography from 'src/components/Dashboard/Views/Typography.vue'
 import TableList from 'src/components/Dashboard/Views/TableList.vue'
-
+import Store from 'src/components/Dashboard/Views/Store.vue'
 const routes = [
   {
     path: '/',
@@ -51,6 +51,11 @@ const routes = [
         path: 'typography',
         name: 'typography',
         component: Typography
+      },
+      {
+        path: 'Store',
+        name: 'Store',
+        component: Store
       },
       {
         path: 'table-list',
